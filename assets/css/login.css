@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    font-family: 'Kode Mono', monospace;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background-image: url('/img/bola_login.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.login_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.submit-login {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login_input {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    width: 100%;
+    max-width: 300px;
+    outline: none;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.login_input:focus {
+    border: 2px solid black;
+}
+
+.login_button {
+    background-color: greenyellow;
+    padding: 8px;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+}
